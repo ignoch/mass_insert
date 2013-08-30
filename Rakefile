@@ -7,7 +7,7 @@ namespace :spec do
     system("bundle exec rspec spec/lib")
   end
 
-  adapters = [:mysql2, :postgresql, :sqlite3]
+  adapters = [:mysql2, :postgresql, :sqlite3, :sqlserver]
 
   adapters.each do |adapter|
     desc "Runs test suite to #{adapter}"

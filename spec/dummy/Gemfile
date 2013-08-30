@@ -8,6 +8,8 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 gem 'mysql2'
 gem 'pg'
+gem 'activerecord-sqlserver-adapter'
+gem 'tiny_tds'
 gem 'mass_insert', :path => '../../../mass_insert'
 
 # Gems used only for assets and not required
